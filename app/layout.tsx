@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { DEFAULT_THEME } from "../lp-system/config/preferences";
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrains-mono",
+});
 
 export const metadata: Metadata = {
   title: "Landing Page Template",
@@ -20,7 +26,7 @@ export default function RootLayout({
   const htmlClassName = theme === 'dark' ? 'dark' : '';
 
   return (
-    <html lang="en" className={htmlClassName} data-theme={theme}>
+    <html lang="en" className={`${htmlClassName} ${jetbrainsMono.variable}`} data-theme={theme}>
       <body className="bg-bg-default text-text-primary">
         {children}
       </body>

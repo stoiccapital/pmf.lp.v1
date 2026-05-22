@@ -6,6 +6,8 @@ export type SectionHeroCopy = {
   secondaryCtaLabel?: string;
 };
 
+export type HeroVariant = 'hero-split-phone' | 'hero-centered-area' | 'hero-text-contact';
+
 export type SectionSocialProofCopy = {
   label?: string;
 };
@@ -111,6 +113,22 @@ export type SectionMetricsCopy = {
   }[];
 };
 
+export type MockDashboardCopy = {
+  user: string;
+  sidebar: string[];
+  pageTitle: string;
+  metrics: {
+    label: string;
+    value: string;
+    trend?: string;
+  }[];
+  table: {
+    title: string;
+    columns: string[];
+    rows: string[][];
+  };
+};
+
 export type PageCopyConfig = {
   hero: SectionHeroCopy;
   socialProof: SectionSocialProofCopy;
@@ -125,5 +143,6 @@ export type PageCopyConfig = {
   pricing?: SectionPricingCopy;
   faq?: SectionFAQCopy;
   finalCta: SectionFinalCtaCopy;
+  mockDashboard?: MockDashboardCopy;
 };
 

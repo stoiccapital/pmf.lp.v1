@@ -11,7 +11,7 @@ export type NavbarLabels = {
   links: {
     features: string;
     pricing: string;
-    useCases: string;
+    howItWorks: string;
     faq: string;
   };
   cta: string;
@@ -58,7 +58,7 @@ export function Navbar({ theme, labels, locale }: NavbarProps) {
   // Navigation links configuration
   const navLinks = [
     { id: 'pricing', label: labels.links.pricing },
-    { id: 'use-cases', label: labels.links.useCases },
+    { id: 'how-it-works', label: labels.links.howItWorks },
     { id: 'faq', label: labels.links.faq },
   ];
 

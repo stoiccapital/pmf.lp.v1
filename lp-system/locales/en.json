@@ -1,226 +1,134 @@
 {
   "example-lp": {
     "hero": {
-      "eyebrow": "Productized Landing Pages",
-      "title": "Enterprise-grade landing pages, delivered in one week",
-      "subtitle": "Product-grade landing pages and multi-page websites for agencies. Scope defined upfront, predictable delivery.",
+      "eyebrow": "Category · Tagline",
+      "title": "The headline that makes them stop scrolling",
+      "subtitle": "One or two sentences that explain what you do, who it's for, and why it matters. Keep it sharp.",
       "primaryCtaLabel": "Get Started",
       "secondaryCtaLabel": "Learn More"
     },
-    "socialProof": {
-    },
     "valueProps": {
-      "heading": "Everything you need",
-      "subtitle": "Professional landing pages that convert",
+      "heading": "Why this hurts right now",
+      "subtitle": "The problem your customer lives with every day before they find you.",
       "items": [
         {
-          "title": "One Week Delivery",
-          "body": "From requirements to deployed site in one week."
+          "title": "Pain Point One",
+          "body": "Describe the frustration in their words. Make them feel seen."
         },
         {
-          "title": "Consistent System",
-          "body": "Enterprise-grade structure and patterns every time."
+          "title": "Pain Point Two",
+          "body": "Another cost they're paying — time, money, or stress."
         },
         {
-          "title": "Performance Ready",
-          "body": "Optimized code, responsive design, SEO-ready structure."
+          "title": "Pain Point Three",
+          "body": "The thing they've tried before that didn't work."
         }
       ]
     },
     "features": {
-      "heading": "Built for results",
-      "subtitle": "Everything that makes landing pages perform",
-      "items": [
-        {
-          "title": "Bilingual Copy Included",
-          "body": "English and German copy included by default."
-        },
-        {
-          "title": "Performance Optimization",
-          "body": "Fast load times and optimized assets built in."
-        },
-        {
-          "title": "Deployment Ready",
-          "body": "Deployed and ready to go, source code included."
-        }
-      ]
-    },
-    "deepDive": {
       "heading": "How it works",
-      "subtitle": "One week from start to launch",
-      "steps": [
-        {
-          "title": "Define scope upfront",
-          "body": "Share requirements, goals, and brand assets. Scope is defined before work begins."
-        },
-        {
-          "title": "We build in one week",
-          "body": "Your landing page or website is built with copy, responsive design, dark/light mode, and performance optimization."
-        },
-        {
-          "title": "One revision included, then launch",
-          "body": "Review, make adjustments with your included revision, and deploy. Source code delivered."
-        }
-      ]
-    },
-    "useCases": {
-      "heading": "Perfect for",
-      "subtitle": "Built for agencies and teams",
+      "subtitle": "Three steps from problem to solved.",
       "items": [
         {
-          "title": "Agencies",
-          "body": "Deliver client websites and landing pages with predictable timelines and consistent quality."
+          "title": "Step One",
+          "body": "What happens first. Keep it simple and concrete."
         },
         {
-          "title": "Product Launches",
-          "body": "Get a professional landing page delivered in one week for your launch."
+          "title": "Step Two",
+          "body": "The transformation in progress. What you do for them."
         },
         {
-          "title": "Marketing Campaigns",
-          "body": "Create dedicated pages for campaigns with fast turnaround."
-        }
-      ]
-    },
-    "integrations": {
-      "heading": "Works with your stack",
-      "subtitle": "Easy handoff to your existing tools",
-      "integrations": [
-        { "name": "Vercel" },
-        { "name": "Netlify" },
-        { "name": "CMS" },
-        { "name": "Analytics" },
-        { "name": "Payments" },
-        { "name": "Email Tools" }
-      ]
-    },
-    "security": {
-      "heading": "Code quality",
-      "subtitle": "Production-ready code you can trust",
-      "items": [
-        {
-          "title": "Enterprise-Grade Code",
-          "body": "Well-structured, maintainable code following best practices."
-        },
-        {
-          "title": "SEO-Ready Structure",
-          "body": "Built with search visibility and performance optimization."
-        },
-        {
-          "title": "Responsive + Dark/Light Mode",
-          "body": "Tested across devices with theme support included."
-        }
-      ]
-    },
-    "metrics": {
-      "heading": "Proven performance",
-      "subtitle": "Results that speak for themselves",
-      "metrics": [
-        {
-          "value": "7 days",
-          "label": "Average delivery time",
-          "description": "From kickoff to deployment"
-        },
-        {
-          "value": "100%",
-          "label": "Defined scope",
-          "description": "No surprises during execution"
-        },
-        {
-          "value": "0 days",
-          "label": "Deployment standard",
-          "description": "No additional preparation required"
+          "title": "Step Three",
+          "body": "The outcome. What their life looks like after."
         }
       ]
     },
     "pricing": {
       "heading": "Simple pricing",
-      "subtitle": "Choose the plan that works for you",
+      "subtitle": "No surprises. Pick what fits.",
       "plans": [
         {
-          "name": "Single Page",
-          "price": "$1,190",
-          "description": "One landing page",
+          "name": "Starter",
+          "price": "$99",
+          "description": "For individuals getting started",
           "features": [
-            "1 landing page",
-            "1 revision included",
-            "Deployment included",
-            "Source code included"
+            "Feature one",
+            "Feature two",
+            "Feature three",
+            "Email support"
           ],
           "ctaLabel": "Get Started"
         },
         {
-          "name": "Package",
-          "price": "$2,990",
-          "description": "3 pages",
+          "name": "Pro",
+          "price": "$299",
+          "description": "For teams that need more",
           "features": [
-            "3 pages",
-            "1 revision included",
-            "Deployment included",
-            "Source code included"
+            "Everything in Starter",
+            "Feature four",
+            "Feature five",
+            "Priority support"
           ],
           "ctaLabel": "Get Started"
         },
         {
           "name": "Enterprise",
           "price": "Custom",
-          "description": "Custom scope",
+          "description": "For larger organizations",
           "features": [
-            "Custom scope",
-            "Scope defined upfront",
-            "Deployment included",
-            "Source code included"
+            "Everything in Pro",
+            "Custom integrations",
+            "Dedicated support",
+            "SLA included"
           ],
           "ctaLabel": "Contact Sales"
         }
       ]
     },
     "faq": {
-      "heading": "Frequently asked questions",
-      "subtitle": "Everything you need to know",
+      "heading": "Common questions",
+      "subtitle": "Everything you need to know before you decide.",
       "items": [
         {
-          "question": "How long does it take?",
-          "answer": "Typical timeline is one week from requirements to deployment."
+          "question": "Question one?",
+          "answer": "A clear, honest answer. No fluff."
         },
         {
-          "question": "Can I make changes after delivery?",
-          "answer": "One revision is included. Additional revisions are $100 per revision. You also receive source code to make updates yourself."
+          "question": "Question two?",
+          "answer": "Another objection handled directly."
         },
         {
-          "question": "What do I need to provide?",
-          "answer": "Requirements, goals, and brand assets. If needed, access for deployment. We handle design, development, and optimization."
+          "question": "Question three?",
+          "answer": "The thing everyone wonders but doesn't ask."
         }
       ]
     },
-    "testimonials": {
-      "heading": "What our customers say",
-      "subtitle": "Trusted by founders and agencies",
-      "testimonials": [
-        {
-          "quote": "We needed a landing page fast for our product launch. They delivered exactly what we needed on time.",
-          "name": "Sarah Johnson",
-          "role": "Founder",
-          "metric": "Fast delivery"
-        },
-        {
-          "quote": "The quality is exceptional and the speed is unmatched. Best investment we made this quarter.",
-          "name": "Michael Chen",
-          "role": "Marketing Director",
-          "metric": "Predictable scope"
-        },
-        {
-          "quote": "As an agency, we use them for all our client landing pages. Consistent quality every time.",
-          "name": "Emma Williams",
-          "role": "Creative Director",
-          "metric": "Performance ready"
-        }
-      ]
+    "mockDashboard": {
+      "user": "User Name",
+      "sidebar": ["Overview", "Module 1", "Module 2", "Module 3", "Settings"],
+      "pageTitle": "Dashboard",
+      "metrics": [
+        { "label": "Metric One", "value": "—", "trend": "+0" },
+        { "label": "Metric Two", "value": "—", "trend": "+0" },
+        { "label": "Metric Three", "value": "—", "trend": "+0" },
+        { "label": "Metric Four", "value": "—", "trend": "+0" }
+      ],
+      "table": {
+        "title": "Table Title",
+        "columns": ["Column A", "Column B", "Column C", "Column D", "Column E"],
+        "rows": [
+          ["Row 1 A", "Row 1 B", "Row 1 C", "00:00", "—"],
+          ["Row 2 A", "Row 2 B", "Row 2 C", "00:00", "—"],
+          ["Row 3 A", "Row 3 B", "Row 3 C", "00:00", "—"],
+          ["Row 4 A", "Row 4 B", "Row 4 C", "00:00", "—"],
+          ["Row 5 A", "Row 5 B", "Row 5 C", "00:00", "—"]
+        ]
+      }
     },
     "finalCta": {
       "heading": "Ready to get started?",
-      "subtitle": "Get your landing page or website delivered in one week",
+      "subtitle": "Join the teams already seeing results.",
       "ctaLabel": "Get Started"
     }
   }
 }
-

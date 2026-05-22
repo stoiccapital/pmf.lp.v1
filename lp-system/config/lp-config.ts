@@ -1,16 +1,19 @@
+import type { HeroVariant } from './types';
+
 export type LandingPageConfig = {
   id: string;                 // e.g. "example-lp"
   vertical: string;           // e.g. "saas"
   slug: string;               // e.g. "fleet"
   theme: 'light' | 'dark';
+  heroVariant: HeroVariant;
 };
 
 export const DEFAULT_LOCALE = 'en';
 export const DEFAULT_LP_ID = 'example-lp';
 
 export const landingPages: LandingPageConfig[] = [
-  { id: 'agency-lp', vertical: 'agency', slug: 'landing-pages', theme: 'light' },
-  { id: 'example-lp', vertical: 'saas', slug: 'fleet', theme: 'dark' },
+  { id: 'agency-lp', vertical: 'agency', slug: 'landing-pages', theme: 'light', heroVariant: 'hero-text-contact' },
+  { id: 'example-lp', vertical: 'saas', slug: 'fleet', theme: 'dark', heroVariant: 'hero-text-contact' },
 ];
 
 export function getDefaultLandingPage(locale: 'en' | 'de'): { vertical: string; slug: string } {
@@ -40,6 +43,11 @@ export function findLandingPageConfig(
   const config = landingPages.find(
     (lp) => lp.vertical === vertical && lp.slug === slug
   );
+  return config || null;
+}
+
+export function findLandingPageConfigById(id: string): LandingPageConfig | null {
+  const config = landingPages.find((lp) => lp.id === id);
   return config || null;
 }
 

@@ -21,7 +21,7 @@ export type ShellMessages = {
     links: {
       features: string;
       pricing: string;
-      useCases: string;
+      howItWorks: string;
       faq: string;
     };
     cta: string;
@@ -50,7 +50,7 @@ const shellMessages: Record<'en' | 'de', ShellMessages> = {
       links: {
         features: 'Features',
         pricing: 'Pricing',
-        useCases: 'Use Cases',
+        howItWorks: 'How it works',
         faq: 'FAQ',
       },
       cta: 'Get Started',
@@ -77,7 +77,7 @@ const shellMessages: Record<'en' | 'de', ShellMessages> = {
       links: {
         features: 'Funktionen',
         pricing: 'Preise',
-        useCases: 'Anwendungsfälle',
+        howItWorks: 'Wie es funktioniert',
         faq: 'FAQ',
       },
       cta: 'Loslegen',

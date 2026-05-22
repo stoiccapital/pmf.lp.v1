@@ -43,6 +43,9 @@ const config: Config = {
           hover: 'var(--link-hover)',
         },
       },
+      fontFamily: {
+        mono: ['var(--font-jetbrains-mono)', 'monospace'],
+      },
       boxShadow: {
         'card-hover': 'var(--card-hover-shadow)',
       },
