@@ -8,10 +8,6 @@ export type SectionHeroCopy = {
 
 export type HeroVariant = 'hero-split-phone' | 'hero-centered-area' | 'hero-text-contact';
 
-export type SectionSocialProofCopy = {
-  label?: string;
-};
-
 export type SectionValuePropsCopy = {
   heading: string;
   subtitle: string;
@@ -131,7 +127,6 @@ export type MockDashboardCopy = {
 
 export type PageCopyConfig = {
   hero: SectionHeroCopy;
-  socialProof: SectionSocialProofCopy;
   valueProps: SectionValuePropsCopy;
   features: SectionFeaturesCopy;
   deepDive?: SectionDeepDiveCopy;
